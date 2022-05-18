@@ -1,6 +1,6 @@
 {
   "name": "@qingbing/vue2-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "封装 vue-element-ui 在线编辑器",
   "main": "src/index.vue",
   "scripts": {

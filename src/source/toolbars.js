@@ -1,6 +1,9 @@
 // 默认的集中工具栏位
 export default {
-  simple: [["bold", "italic", "underline", "strike"]],
+  simple: [
+    ["bold", "italic", "underline", "strike"],
+    [{ header: 1 }, { header: 2 }, "link", "blockquote"]
+  ],
   common: [
     [{ header: [false, 1, 2, 3, 4, 5, 6] }],
     [{ size: ["small", false, "large", "huge"] }],
