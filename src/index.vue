@@ -257,7 +257,7 @@ export default {
       const Editor = this.quill;
       const range = Editor.getSelection();
       const cursorLocation = range.index;
-      this.$emit("image-upload", file, Editor, cursorLocation, resetUploader);
+      this.$emit("image-added", file, Editor, cursorLocation, resetUploader);
     }
   }
 };
